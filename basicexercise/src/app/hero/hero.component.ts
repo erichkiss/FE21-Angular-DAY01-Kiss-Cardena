@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hero.component.css']
 })
 export class HeroComponent implements OnInit {
-
-  constructor() { }
+  heroHeading: String;
+  constructor() {
+    this.heroHeading = "Welcome to the beautiful world of fish tanks";
+   }
 
   ngOnInit(): void {
   }
