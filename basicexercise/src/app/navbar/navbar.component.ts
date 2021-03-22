@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
   projectName:string;
   constructor() { 
-    this.projectName = "Basic Exercise Kiss Cardena"
+    this.projectName = "Fishbowl"
   }
 
   ngOnInit(): void {
